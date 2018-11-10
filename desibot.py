@@ -23,6 +23,10 @@ async def sujay():
 	await bot.say('Hello Owner, How are you sir?')
 	await bot.say('Good Morning!')
 	
+	@bot.command()
+async def Hello():
+	await bot.say('Hey, How are you?')
+	
 @bot.command()
 async def desibot():
 	await bot.say('Watt da fak iz ur prob, Stop Calling me Bruh')
